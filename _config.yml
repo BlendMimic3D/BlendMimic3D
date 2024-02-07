@@ -6,10 +6,4 @@ plugins:
 title: BlendMimic3D 
 show_downloads: true
 description: A synthetic dataset developed using Blender, designed to enhance Human Pose Estimation (HPE) research. 
-=======
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-cayman
->>>>>>> Stashed changes
+
