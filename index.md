@@ -1,10 +1,14 @@
 ---
 layout: default
+title: BlendMimic3D Dataset
+github_repo: "https://github.com/FilipaLino/BlendMimic3D"
+download_zip: "https://drive.google.com/uc?export=download&id=1lToowcVOqQx6-d8CLdarpyB7tiYftyQC"
 ---
-<<<<<<< Updated upstream
+
+
 # Overview
 [GCN Pose Refinement Block](./GCN-page.html).
-=======
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
