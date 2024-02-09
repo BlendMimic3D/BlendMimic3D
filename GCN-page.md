@@ -184,7 +184,7 @@ Our results show the significant impact of the GCN block compared to previous me
 ### Qualitative Results
 
 <div style="display: flex; justify-content: center; align-items: center;">
-    <video width="60%"  controls >
+    <video width="100%"  controls >
         <source src="https://raw.githubusercontent.com/FilipaLino/filipalino.github.io/main/Results/JLo.mp4" type="video/mp4">
     </video>
 </div>
