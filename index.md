@@ -6,126 +6,43 @@ download_zip: "https://drive.google.com/uc?export=download&id=1lToowcVOqQx6-d8CL
 ---
 
 
-# Overview
-[GCN Pose Refinement Block](./GCN-page.html).
+# Introduction 
+---
+In response to the escalating demand for detailed datasets for human pose estimation (HPE), we introduce the **BlendMimic3D Dataset**. By providing a synthetic dataset that bridges the realism gap in current HPE datasets, BlendMimic3D stands as a pivotal tool for advancing pose estimation technologies. Its creation not only demonstrates the potential of synthetic datasets to enhance algorithm training and testing but also sets a new benchmark for dataset complexity and utility in the HPE domain.
+
+### Motivation
+
+Traditional datasets for HPE, while invaluable, often fall short in replicating the complex, occlusion-heavy environments encountered in real-world applications. The Human3.6M dataset, despite its contributions to the field, exemplifies these limitations. Utilizing Blender, a leading open-source 3D computer graphics software, we've crafted BlendMimic3D to specifically address these gaps, offering a diverse array of scenarios that range from simple, controlled settings to intricate, occlusion-rich environments.
+
+### Integration with GCN Pose Refinement
+
+Our development of the BlendMimic3D dataset was significantly inspired by advancements in pose refinement techniques, particularly through the use of Graph Convolutional Networks (GCN). The [GCN Pose Refinement Block](./GCN-page.html) represents a cornerstone of our approach, enhancing the accuracy of pose estimation in occluded scenarios. By training our GCN on the BlendMimic3D dataset, we've achieved notable improvements in pose estimation fidelity, especially in complex occlusion contexts. 
+
+### Dataset Composition
+
+BlendMimic3D is meticulously constructed with the following components:
+
+- **Scenarios**: From simple to complex, including extensive occlusion challenges.
+- **Subjects**: Three distinct subjects, each performing a variety of actions.
+- **Actions**: Each subject engages in 14 unique actions, captured across single and multi-person setups.
+- **Videos**: The dataset encompasses 128 videos, each with a duration of approximately 20 seconds (600 frames).
+
+### Technological Backbone
+
+The dataset's creation involved positioning four cameras within a virtual environment to capture a full spectrum of movements. Characters, animated via resources from Mixamo, engage in a range of actions from arguing to greeting, with their 3D poses meticulously extracted and analyzed.
+
+![Overview of BlendMimic3D dataset generation](https://raw.githubusercontent.com/FilipaLino/filipalino.github.io/main/images/Blendmimic3D.png)
+
+### Key Features
+
+- **Adaptability**: BlendMimic3D's design ensures its relevance and applicability across various occlusion scenarios and HPE models.
+- **Comprehensive Metadata**: Accompanying each video is detailed metadata, including camera calibration parameters and the 2D and 3D positions of keypoints.
 
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 
-There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+[Next Page](./GCN-page.html).
 
 
-### Definition lists can be used with HTML syntax.
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
->>>>>>> Stashed changes
