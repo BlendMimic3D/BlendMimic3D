@@ -189,5 +189,11 @@ Our results show the significant impact of the GCN block compared to previous me
     </video>
 </div>
 
+<div style="display: flex; justify-content: center; align-items: center;">
+    <video width="100%"  controls >
+        <source src="https://raw.githubusercontent.com/FilipaLino/filipalino.github.io/main/Results/TakeItem_multi.mp4" type="video/mp4">
+    </video>
+</div>
+
  
 [Back](./)
