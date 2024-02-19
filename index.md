@@ -5,6 +5,9 @@ github_repo: "https://github.com/FilipaLino/BlendMimic3D"
 download_zip: "https://drive.google.com/uc?export=download&id=1lToowcVOqQx6-d8CLdarpyB7tiYftyQC"
 ---
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/FilipaLino/filipalino.github.io/main/images/Blendmimic3DOccl2.png" alt="Subjects" width="100%" />
+</p>
 
 # Introduction 
 ---
@@ -16,7 +19,7 @@ Traditional datasets for HPE, while invaluable, often fall short in replicating 
 
 ### Integration with GCN Pose Refinement
 
-Our development of the BlendMimic3D dataset was significantly inspired by advancements in pose refinement techniques, particularly through the use of Graph Convolutional Networks (GCN). The [GCN Pose Refinement Block](./GCN-page.html) represents a cornerstone of our approach, enhancing the accuracy of pose estimation in occluded scenarios. By training our GCN on the BlendMimic3D dataset, we've achieved notable improvements in pose estimation fidelity, especially in complex occlusion contexts. 
+Our development of the BlendMimic3D dataset was significantly inspired by advancements in pose refinement techniques, particularly through the use of Graph Convolutional Networks (GCN). The [**GCN Pose Refinement Block**](./GCN-page.html) represents a cornerstone of our approach, enhancing the accuracy of pose estimation in occluded scenarios. By training our GCN on the BlendMimic3D dataset, we've achieved notable improvements in pose estimation fidelity, especially in complex occlusion contexts. 
 
 ### Dataset Composition
 
@@ -27,17 +30,62 @@ BlendMimic3D is meticulously constructed with the following components:
 - **Actions**: Each subject engages in 14 unique actions, captured across single and multi-person setups.
 - **Videos**: The dataset encompasses 128 videos, each with a duration of approximately 20 seconds (600 frames).
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/FilipaLino/filipalino.github.io/main/images/subjects.png" alt="Subjects" width="70%" />
+</p>
+
 ### Technological Backbone
 
 The dataset's creation involved positioning four cameras within a virtual environment to capture a full spectrum of movements. Characters, animated via resources from Mixamo, engage in a range of actions from arguing to greeting, with their 3D poses meticulously extracted and analyzed.
 
-![Overview of BlendMimic3D dataset generation](https://raw.githubusercontent.com/FilipaLino/filipalino.github.io/main/images/Blendmimic3D.png)
+<div style="display: flex; justify-content: center; align-items: center;">
+    <video width="70%"  controls >
+        <source src="https://raw.githubusercontent.com/FilipaLino/filipalino.github.io/main/images/Dataset-Data.mp4" type="video/mp4">
+    </video>
+</div>
+
 
 ### Key Features
 
 - **Adaptability**: BlendMimic3D's design ensures its relevance and applicability across various occlusion scenarios and HPE models.
 - **Comprehensive Metadata**: Accompanying each video is detailed metadata, including camera calibration parameters and the 2D and 3D positions of keypoints.
 
+### Videos
+#### S1
+<div style="display: flex; justify-content: left; align-items: center; gap: 20px;">
+    <video width="30%" controls>
+        <source src="https://raw.githubusercontent.com/FilipaLino/filipalino.github.io/main/images/Reactions_1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <video width="30%" controls>
+        <source src="https://raw.githubusercontent.com/FilipaLino/filipalino.github.io/main/images/SittingCheering_2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+#### S2
+<div style="display: flex; justify-content: left; align-items: center; gap: 20px;">
+    <video width="30%" controls>
+        <source src="https://raw.githubusercontent.com/FilipaLino/filipalino.github.io/main/images/StandingArguing_0.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <video width="30%" controls>
+        <source src="https://raw.githubusercontent.com/FilipaLino/filipalino.github.io/main/images/ShoppingBag_3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+#### S3
+<div style="display: flex; justify-content: left; align-items: center; gap: 20px;">
+    <video width="45%" controls>
+        <source src="https://raw.githubusercontent.com/FilipaLino/filipalino.github.io/main/images/Focus_3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <video width="45%" controls>
+        <source src="https://raw.githubusercontent.com/FilipaLino/filipalino.github.io/main/images/Focus_multi_2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
 
 
 
